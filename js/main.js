@@ -109,4 +109,11 @@ let swiper = new Swiper(".portfolio__container", {
     },
   });
 
-  
+
+/* ============= SHOW SCROLL TOP =============== */
+function scrollTop(){
+    const scrollTop = document.getElementById("scroll-top")
+    // When the scroll is greater than 560 viewport height, add the scroll class to the scroll-top class
+    if(this.scrollY >= 560 ) scrollTop.classList.add("scroll-top"); else nav.classList.remove("scroll-top")
+}
+window.addEventListener("click" , scrollTop)

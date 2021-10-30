@@ -231,6 +231,39 @@ img{
     bottom: 0;
 }
 
+/* Scroll Top */
+.scrolltop{
+    position: fixed;
+    right: 2rem;
+    top: 85%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .3rem;
+    background-color: var(--first-color);
+    border-radius: .4rem;
+    z-index: var(--z-tooltip);
+    transition: .4s;
+    visibility: hidden;
+}
+
+.scrolltop:hover{
+    background: var(--first-color-alt);
+}
+
+.scrollTop__icon{
+    font-size: 1.8rem;
+    color: #FFF;
+}
+
+
+/* SHOW Scroll Top */
+.scroll-top{
+    visibility: visible;
+    bottom: 1.5rem;
+}
+
 /* ===================== HOME ================== */
 .home__container{
     gap: 1rem;
