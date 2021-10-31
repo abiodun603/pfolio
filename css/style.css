@@ -848,7 +848,7 @@ img{
 }
 
 /* =========== Smaller Devices ===================== */
-/* @media screen and (max-width: 350px){
+@media screen and (max-width: 350px){
     .container{
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
@@ -886,10 +886,10 @@ img{
     .services__modal{
         padding: 0 .5rem
     }
-} */
+}
 
 /* =========== Medium Devices ===================== */
-/* @media screen and (min-width: 568px){
+@media screen and (min-width: 568px){
     .home__content{
         grid-template-columns: max-content 1fr 1fr;
     }
@@ -916,9 +916,9 @@ img{
         grid-template-columns: .6fr;
         justify-content: center;
     }
-} */
+}
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .container{
         margin-left: auto;
         margin-right: auto;
@@ -1071,9 +1071,9 @@ img{
     .footer__social{
         justify-self: flex-end;
     }
-}
+} */
 /* =========== Larger Devices ===================== */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     .header,
     .main,
     .footer__container{
@@ -1103,4 +1103,4 @@ img{
     .contact__form{
         width: 460px
     }
-}
+} */
