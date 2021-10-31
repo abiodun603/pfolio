@@ -848,7 +848,7 @@ img{
 }
 
 /* =========== Smaller Devices ===================== */
-@media screen and (max-width: 350px){
+/* @media screen and (max-width: 350px){
     .container{
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
@@ -886,7 +886,7 @@ img{
     .services__modal{
         padding: 0 .5rem
     }
-}
+} */
 
 /* =========== Medium Devices ===================== */
 @media screen and (min-width: 568px){
